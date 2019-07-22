@@ -5,10 +5,10 @@
 
 const awsConfig = {
     Auth: {
-        identityPoolId: '', // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
-        region: '', // example: 'us-east-2'
-        userPoolId: '', // example: 'us-east-2_teEUQbkUh'
-        userPoolWebClientId: '' // example: '3k09ptd8kn8qk2hpk07qopr86'
+        identityPoolId: 'ap-southeast-1:c063329e-b966-4881-8728-70d776f0a11f', // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
+        region: 'ap-southeast-1', // example: 'us-east-2'
+        userPoolId: 'ap-southeast-1_PgR2vFdL1', // example: 'us-east-2_teEUQbkUh'
+        userPoolWebClientId: '3omt4oe9ll2lm0ou8mllpc6hnt' // example: '3k09ptd8kn8qk2hpk07qopr86'
     },
     API: {
         endpoints: [
